@@ -78,8 +78,25 @@ li a:hover{
     color:teal;
     background-color: orange;
 }
-.card{
+.product
+{
     position: relative;
+    margin: 0%;
+    padding: 0%;
+    overflow: hidden;
+    background-color: #085454;
+
+}
+.product-container
+{   
+    background-color: red;
+}
+.box{
+    float: left;
+    margin: 30px;
+    width:300px;
+    background-color: orange;
+
 }
 .shopicon
 {
@@ -111,19 +128,13 @@ li a:hover{
 .heart:hover{
     color: yellowgreen;
 }
-.box{
-    border-radius:0;
-}
 .active
 {
     background-color: orange;
 }
 
 /* cart css */
-.product
-{
-    position: relative;
-}
+
 .cart-overlay
 {
     position:fixed;

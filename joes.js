@@ -102,8 +102,8 @@ function loadProducts(products,title)
     // console.log(products)
     let cardbox=""
     products.map((item)=>{
-        cardbox+=`<div class="col-3">
-              <div class="card box">
+        cardbox+=`
+              <div class="card box" >
                         
                         <img src="https://www.app.tutorjoes.in/img/food/${item.PIC}" class="card-img-top" alt="" style="height: 100px;">
                         <div class="card-body text-center p-1" >
@@ -119,10 +119,8 @@ function loadProducts(products,title)
                             <button class="  btn-sm addbtn" id=${item.ID}  style="border: none;" ><i class="bi bi-cart4 "></i>Add To Cart</button>
                         </div>
                             <span class=" heart bi bi-heart-fill" id=${item.ID}></span>
-                        </div>
-                        
-                        
-                    </div>
+                        </div>                      
+                     
                 </div>`
 
     })
